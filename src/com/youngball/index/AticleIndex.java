@@ -31,6 +31,8 @@ public class AticleIndex {
 		IndexWriter indexWriter = new IndexWriter(luceneUtils.directory, luceneUtils.analyzer, MaxFieldLength.LIMITED);
 		indexWriter.addDocument(DocumentUtils.aticle2Document(aticle));
 		indexWriter.close();
+		
+		
 	}
 	
 	@Test
