@@ -11,7 +11,7 @@ public class Optmize {
 	@Test
 	public void optmizeTest() throws Exception{
 		IndexWriter indexWriter = new IndexWriter(luceneUtils.directory, luceneUtils.analyzer, MaxFieldLength.LIMITED);
-		//一条代码实现优化
+		//一条代码实现优化,底层代码复杂
 		indexWriter.optimize();
 		indexWriter.close();
 		
