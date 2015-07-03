@@ -6,6 +6,7 @@
 	<classpathentry kind="lib" path="lib/lucene-core-3.0.1.jar" sourcepath="lib/lucene-core-3.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/lucene-highlighter-3.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/lucene-memory-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/IKAnalyzer3.2.0Stable.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
